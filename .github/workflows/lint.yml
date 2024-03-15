@@ -18,7 +18,7 @@ jobs:
     name: Linting
     runs-on: ubuntu-latest
     with:
-        node-version: ${{env.NODE_VERSION}}
+      node-version: ${{env.NODE_VERSION}}
 
     steps:
       - name: Install NodeJS
